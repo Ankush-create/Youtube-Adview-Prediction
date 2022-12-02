@@ -18,3 +18,16 @@ Click [here](https://www.kaggle.com/datasets/sidharth178/youtube-adview-dataset)
 * 'published' : The data of uploading the video
 * 'duration' : The duration of the video (in min. and seconds)
 * 'category' : Category niche of each of the video
+
+# Objective
+To build a machine learning regression to predict youtube adview count based on other youtube metrics
+
+# Importing neccesary libraries and training Dataset
+
+import numpy as np
+import pandas as pd
+import matplotlib.cm as cm
+import matplotlib.pyplot as plt
+
+path = "train.csv"
+data_train = pd.read_csv(path)
